@@ -55,6 +55,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="ReadyToRunDisassembler.cs" />
     <Compile Include="ReadyToRunLanguage.cs" />
     <Compile Include="ReadyToRunOptionPage.xaml.cs">
       <DependentUpon>ReadyToRunOptionPage.xaml</DependentUpon>
@@ -76,7 +77,7 @@
     <Page Include="ReadyToRunOptionPage.xaml" />
   </ItemGroup>
 
-  <Import Project="../packages.props"/>
+  <Import Project="../packages.props" />
 
   <ItemGroup>
     <PackageReference Include="Iced" Version="1.8.0" />
